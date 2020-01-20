@@ -1,0 +1,89 @@
+.wrapper-grid {
+	display: grid;
+	grid-template-columns: 2fr 1fr 2fr 2fr;
+	grid-template-rows: 2fr 2fr 1fr;
+	height: 560px;
+}
+
+.g1 {
+	grid-area: 1 / 1 / 1 / 3;
+	background: #fac901; /* Yellow */
+	border: 4px solid black;
+}
+
+.g2 {
+	background: #ffffff; /* White */
+	border-right: 4px solid black;
+	border-top: 4px solid black;
+	border-bottom: 4px solid black;
+}
+
+.g3 {
+	background: #dd0100; /* Red */
+	border-right: 4px solid black;
+	border-top: 4px solid black;
+	border-bottom: 4px solid black;
+}
+
+.g4 {
+	background: #225095; /* Blue */
+	border-left: 4px solid black;
+	border-right: 4px solid black;
+	border-bottom: 4px solid black;
+}
+
+.g5 {
+	background: #dd0100; /* Red */
+	border-right: 4px solid black;
+	border-bottom: 4px solid black;
+}
+
+.g6 {
+	background: #ffffff; /* White */
+	border-right: 4px solid black;
+	border-bottom: 4px solid black;
+}
+
+.g7 {
+	background: #225095; /* Blue */
+	border-left: 4px solid black;
+	border-right: 4px solid black;
+	border-bottom: 4px solid black;
+}
+
+.g8 {
+	background: #fac901; /* Yellow */
+	border-right: 4px solid black;
+	border-bottom: 4px solid black;
+}
+
+.g9 {
+	background: #ffffff; /* White */
+	border-right: 4px solid black;
+	border-bottom: 4px solid black;
+}
+
+.g10 {
+	background: #fac901; /* Yellow */
+	border-right: 4px solid black;
+	border-bottom: 4px solid black;
+}
+
+
+
+/* Style from 960px */
+
+@media only screen and (max-width: 960px) {
+
+
+}
+
+
+
+/* Style from 560px */
+
+@media only screen and (max-width: 560px) {
+
+
+}
+
